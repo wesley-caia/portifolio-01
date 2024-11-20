@@ -99,6 +99,7 @@ align-items: center;
 .tecnologia p{
     font-size: 13px;
     text-align: center;
+    font-style: italic;
 }
 
 .fullstack {
@@ -117,4 +118,23 @@ align-items: center;
 .fullstack img:hover{
     opacity: 100%;
     transform: scale(1.1);
+}
+.projeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projeto h2{
+    color: white;
+    text-align: center;
+    margin:20px;
+    font-size: 42px;
+}
+.projeto h3{
+    color: gray;
+    text-align: center;
+    margin:20px;
+    font-size: 30px;
+    
 }
