@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    background-color:#222222;
+    height: 80px;
+    width: 100%;
+    justify-content: space-around;  
+    z-index: 9; 
+    position: static;
+ 
+ }
+.navbar-list{
+display: flex;
+align-items: center;
+
+} 
+.navbar-list li{
+    list-style: none;
+    font-size: 15px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 2px;
+    
+}
+.navbar-list a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    
+    
+}
+.navbar-list a:hover{
+   color: aqua;
+    transition: 0.3s; 
+
+}
+.navbar-list li:hover{
+    transform: scale(0.9);
+    transition: 0.3s; 
+}
+
+.foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+}
+.foto div{
+    max-width: 60%;
+     
+
+}
+.foto img{
+    width: 213px;
+    border-radius: 50%;
+    margin: 50px 0px 40px 0px;
+}
+.foto h1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+.foto p{
+    color: white;
+    border: solid red 1px;
+    margin: 7px;
+    text-align: justify;
+    padding: 10px;
+    font-size: 18px;
+   font-family: "Poppins", sans-serif; 
+   font-weight: 400;
+}
+.tecnologia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tecnologia div{
+    margin: 30px;
+    color: white;
+    font-family: "Poppins", sans-serif; 
+}
+.tecnologia h2{
+    text-align: center;
+    font-size: 30px;
+}
+.tecnologia p{
+    font-size: 13px;
+    text-align: center;
+}
+
+.fullstack {
+    display: flex;
+    justify-content: center;
+   
+}
+.fullstack img{
+    width: 35px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    opacity: 60%;
+    border-radius: 4px;
+    transition: 0.9s;
+}
+.fullstack img:hover{
+    opacity: 100%;
+    transform: scale(1.1);
+}
