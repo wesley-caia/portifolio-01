@@ -4,12 +4,15 @@
     outline: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: black;
 }
 header{
-    z-index: 9;
-    position: sticky;
+ 
+    position: sticky; 
 }
 .navbar{
     display: flex;
@@ -17,6 +20,8 @@ header{
     height: 80px;
     width: 100%;
     justify-content: space-around;  
+    
+    
  
  }
 .navbar-list{
@@ -170,9 +175,9 @@ footer{
     
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
    body{
-    background: cover;
+    background-size: cover;
    }
     /* inicio foto */
     .foto h1{
@@ -180,6 +185,8 @@ footer{
     }
     .foto p{
         font-size: 12px;
+        padding: 10px 0 0 0;
+
     }
 
     .foto img{
