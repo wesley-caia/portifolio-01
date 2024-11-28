@@ -20,12 +20,14 @@ header{
     height: 80px;
     width: 100%;
     justify-content: space-around;  
+    position: sticky;
     
     
  
  }
 .navbar-list{
 display: flex;
+flex-wrap: wrap;
 align-items: center;
 
 } 
@@ -176,8 +178,14 @@ footer{
 }
 
 @media (max-width: 1050px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
    body{
-    background-size: cover;
+    margin: auto;
+    /* overflow-x: hidden; */
+    
    }
     /* inicio foto */
     .foto h1{
@@ -188,6 +196,7 @@ footer{
         padding: 10px 0 0 0;
 
     }
+
 
     .foto img{
         max-width: 150px;
